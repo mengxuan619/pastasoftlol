@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Antario\Features\Added by silver\Indicators.cpp" />
     <ClCompile Include="Antario\Features\Aimbot\EnginePrediction.cpp" />
     <ClCompile Include="Antario\Features\Aimbot\Aimbot.cpp" />
     <ClCompile Include="Antario\Features\Aimbot\Autowall.cpp" />
@@ -168,6 +169,7 @@
     <ClCompile Include="Antario\Features\Visuals\ESP.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Antario\Features\Added by silver\Indicators.h" />
     <ClInclude Include="Antario\Features\Aimbot\Aimbot.h" />
     <ClInclude Include="Antario\Features\Aimbot\Autowall.h" />
     <ClInclude Include="Antario\Features\Aimbot\EnginePrediction.h" />
