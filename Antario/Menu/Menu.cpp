@@ -5,7 +5,7 @@
 #include "../Utils/Color.h"
 #include "../Utils/GlobalVars.h"
 #include "config.h"
-#include "..\Features\AntiAim\AntiAim.cpp"
+#include "..\Features\AntiAim\AntiAim.h"
 Menu g_Menu;
 
 bool manually_set_key = false;
