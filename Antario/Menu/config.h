@@ -216,6 +216,7 @@ public:
 	int nightmodeintensity = 11;
 	bool hitmarker = false;
 	int hitmarker_sound = 0;
+	bool indicators = false;
 	bool no_smoke = false;
 	bool transparent_props = false;
 	bool wireframe_arms = false;

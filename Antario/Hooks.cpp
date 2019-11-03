@@ -866,7 +866,9 @@ void Hooks::Init()
 	Globals::WeaponIcon = g_pSurface->FontCreate();
 	Globals::TabFont = g_pSurface->FontCreate();
 	Globals::IndicatorFont = g_pSurface->FontCreate();
+	Globals::Indicators = g_pSurface->FontCreate();
 
+	g_pSurface->SetFontGlyphSet(Globals::Indicators, "Verdana", 24, 900, 0, 0, FONTFLAG_ANTIALIAS | FONTFLAG_DROPSHADOW);
 	g_pSurface->SetFontGlyphSet(Globals::keystrokes, "Verdana", 24, 700, 0, 0, FONTFLAG_DROPSHADOW);
 	g_pSurface->SetFontGlyphSet(Globals::CourierNew, "Verdana", 13, 800, 0, 0, FONTFLAG_DROPSHADOW);
 	g_pSurface->SetFontGlyphSet(Globals::SmallText, "Tahoma", 12, 400, 0, 0, FONTFLAG_DROPSHADOW);

@@ -127,6 +127,7 @@ void CConfig::Setup()
 	SetupValue(c_config::get().remove_scope, false, "Visuals", "Remove_scope"); 
 	SetupValue(c_config::get().hitmarker, false, "Visuals", "hitmarker");
 	SetupValue(c_config::get().hitmarker_sound, 0, "Visuals", "hitmarker_sound");
+	SetupValue(c_config::get().indicators, false, "Visuals", "indicators");
 	SetupValue(c_config::get().remove_visual_recoil, false, "Visuals", "remove_visual_recoil");
 	SetupValue(c_config::get().viewmodel_fov, 0, "Visuals", "viewmodel_fov");
 	SetupValue(c_config::get().no_smoke, false, "Visuals", "no_smoke");

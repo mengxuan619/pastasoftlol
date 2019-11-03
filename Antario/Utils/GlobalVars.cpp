@@ -20,6 +20,7 @@ namespace Globals
 	int            MissedShots[65];
 	bool			Manual_Side = true;
 	bool			FakeDuck[65];
+	bool			gIndicators;
 	bool HitPlayer;
 	bool DesyncEnabledSpecialChecks = false;
 	std::string Username;
@@ -31,5 +32,6 @@ namespace Globals
 	DWORD WeaponIcon;
 	DWORD TabFont;
 	DWORD IndicatorFont;
+	DWORD Indicators;
 	float          pCurrentFOV;
 }

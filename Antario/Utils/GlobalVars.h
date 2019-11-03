@@ -21,6 +21,7 @@ namespace Globals
 	extern bool			  Manual_Side;
 	extern bool			FakeDuck[65];
 	extern bool		   MissedShot;
+	extern bool			gIndicators;
 	extern bool DesyncEnabledSpecialChecks;
 	extern bool HitPlayer;
 	extern std::string Username;
@@ -31,6 +32,7 @@ namespace Globals
 	extern DWORD WeaponIcon;
 	extern DWORD TabFont;
 	extern DWORD IndicatorFont;
+	extern DWORD Indicators;
 	extern HMODULE	       Module;
 	extern                float w2s_matrix[4][4];
 	extern float          pCurrentFOV;
