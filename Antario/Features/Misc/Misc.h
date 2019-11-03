@@ -617,7 +617,7 @@ public:
 			return;
 
 		static int counter = 0;
-		static std::string clantag = "SUB TO EFFEX ";
+		static std::string clantag = "gamesense ";
 		if (++counter > 25) {
 			std::rotate(clantag.begin(), clantag.begin() + 1, clantag.end());
 			SetClan(clantag.c_str(), clantag.c_str());

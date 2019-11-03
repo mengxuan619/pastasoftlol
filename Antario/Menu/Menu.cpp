@@ -666,7 +666,7 @@ void Menu::Render()
 
 	MenuWatermark += username;
 	MenuWatermark += " - ";
-	MenuWatermark += "EffeX.XYZ";
+	MenuWatermark += "Fixed By Silver";
 	RECT WatermarkMenuText_Size = g_pSurface->GetTextSizeRect(Globals::CourierNew, MenuWatermark.c_str());
 
 	g_pSurface->DrawT(_pos.x + _width - WatermarkMenuText_Size.right - 5, _pos.y + (20 / 2) - (TitleText_Size.bottom / 2), Color(143, 143, 143, MenuAlpha_Text), Globals::CourierNew, false, MenuWatermark.c_str());

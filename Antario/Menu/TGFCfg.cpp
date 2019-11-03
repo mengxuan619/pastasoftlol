@@ -264,8 +264,8 @@ void CConfig::export_to_clipboard(std::string file) {
 
 	if (SUCCEEDED(SHGetFolderPath(NULL, CSIDL_APPDATA, NULL, 0, path)))
 	{
-		folder = std::string(path) + "\\effex\\";
-		file_directory = std::string(path) + "\\effex\\" + file + ".ini";
+		folder = std::string(path) + "\\gamesense\\";
+		file_directory = std::string(path) + "\\gamesense\\" + file + ".ini";
 	}
 
 	Save(file);
@@ -304,8 +304,8 @@ bool CConfig::import_from_clipboard(std::string file) {
 
 	if (SUCCEEDED(SHGetFolderPath(NULL, CSIDL_APPDATA, NULL, 0, path)))
 	{
-		folder = std::string(path) + "\\effex\\";
-		file_directory = std::string(path) + "\\effex\\" + file + ".ini";
+		folder = std::string(path) + "\\gamesense\\";
+		file_directory = std::string(path) + "\\gamesense\\" + file + ".ini";
 	}
 
 	std::string clipboard = get_clipboard_data();
@@ -367,8 +367,8 @@ void CConfig::Save(std::string ConfigName)
 
 	if (SUCCEEDED(SHGetFolderPath(NULL, CSIDL_APPDATA, NULL, 0, path)))
 	{
-		folder = std::string(path) + "\\effex\\";
-		file = std::string(path) + "\\effex\\" + ConfigName + ".ini";
+		folder = std::string(path) + "\\gamesense\\";
+		file = std::string(path) + "\\gamesense\\" + ConfigName + ".ini";
 	}
 
 	CreateDirectory(folder.c_str(), NULL);
@@ -390,8 +390,8 @@ void CConfig::Load(std::string ConfigName)
 
 	if (SUCCEEDED(SHGetFolderPath(NULL, CSIDL_APPDATA, NULL, 0, path)))
 	{
-		folder = std::string(path) + "\\effex\\";
-		file = std::string(path) + "\\effex\\" + ConfigName + ".ini";
+		folder = std::string(path) + "\\gamesense\\";
+		file = std::string(path) + "\\gamesense\\" + ConfigName + ".ini";
 	}
 
 	CreateDirectory(folder.c_str(), NULL);

@@ -140,7 +140,7 @@ public:
 	int pitch_air_add_angle;
 
 
-	std::string customtag = "EffeX.XYZ";
+	std::string customtag = "Fixed By Silver";
 	int fakelagspoof;
 
 	/*--------------------------------------*/
