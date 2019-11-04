@@ -96,6 +96,9 @@
     <ClCompile Include="Antario\Features\damage esp\damageesp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="D:\FILES XD\download\sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Antario\Hooks.h">

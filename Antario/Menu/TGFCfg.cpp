@@ -128,6 +128,7 @@ void CConfig::Setup()
 	SetupValue(c_config::get().hitmarker, false, "Visuals", "hitmarker");
 	SetupValue(c_config::get().hitmarker_sound, 0, "Visuals", "hitmarker_sound");
 	SetupValue(c_config::get().indicators, false, "Visuals", "indicators");
+	SetupValue(c_config::get().sound_footstep, false, "Visuals", "Footstep ESP");
 	SetupValue(c_config::get().remove_visual_recoil, false, "Visuals", "remove_visual_recoil");
 	SetupValue(c_config::get().viewmodel_fov, 0, "Visuals", "viewmodel_fov");
 	SetupValue(c_config::get().no_smoke, false, "Visuals", "no_smoke");
@@ -250,6 +251,11 @@ void CConfig::Setup()
 	SetupValue(c_config::get().menu_color_g, 255, "Misc", "menu_color_g");
 	SetupValue(c_config::get().menu_color_b, 255, "Misc", "menu_color_b");
 	SetupValue(c_config::get().menu_color_a, 255, "Misc", "menu_color_a");
+
+	//SetupValue(c_config::get().clr_footstep_r, 255, "Visuals", "clr_footstep_r");
+	//SetupValue(c_config::get().clr_footstep_g, 255, "Visuals", "clr_footstep_g");
+	//SetupValue(c_config::get().clr_footstep_b, 255, "Visuals", "clr_footstep_b");
+	//SetupValue(c_config::get().clr_footstep_a, 255, "Visuals", "clr_footstep_a");
 
 	SetupValue(c_config::get().knife_model, 0, "Skins", "knife_model");
 	SetupValue(c_config::get().knife_skin, 0, "Skins", "knife_skin");

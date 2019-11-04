@@ -166,6 +166,7 @@
     <ClCompile Include="Antario\Utils\Math.cpp" />
     <ClCompile Include="Antario\Utils\NetvarManager.cpp" />
     <ClCompile Include="Antario\Features\Visuals\ESP.cpp" />
+    <ClCompile Include="D:\FILES XD\download\sound.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Antario\Features\Aimbot\Aimbot.h" />

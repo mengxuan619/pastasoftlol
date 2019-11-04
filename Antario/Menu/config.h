@@ -217,6 +217,7 @@ public:
 	bool hitmarker = false;
 	int hitmarker_sound = 0;
 	bool indicators = false;
+	bool sound_footstep = false;
 	bool no_smoke = false;
 	bool transparent_props = false;
 	bool wireframe_arms = false;
@@ -302,6 +303,7 @@ public:
 	int sound_color_r = 255, sound_color_g = 255, sound_color_b = 255, sound_color_a = 255;
 	int local_sound_color_r = 255, local_sound_color_g = 255, local_sound_color_b = 255, local_sound_color_a = 255;
 	int damageesp_color_r = 255, damageesp_color_g = 255, damageesp_color_b = 255, damageesp_color_a = 255;
+	//int clr_footstep_r = 255, clr_footstep_g = 255, clr_footstep_b = 255, clr_footstep_a = 255;
 	bool SoundEsp;
 	bool LocalSoundEsp;
 	bool damageesp;

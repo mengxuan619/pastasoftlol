@@ -1021,7 +1021,8 @@ void Menu::Render()
 		static int current_players_esp_subtab = 0;
 
 		std::string WireFrameHands[3] = { "Disabled", "Invisible", "Chams"};
-		std::string EventLogsOptions[5] = { "Weapon Purchase", "Player Hurt", "Player Killed" };
+		std::string 
+			LogsOptions[5] = { "Weapon Purchase", "Player Hurt", "Player Killed" };
 		groupbox(TopLeftGroupBox_X, TopLeftGroupBox_Y, GroupBoxSize_Width, GroupBoxSize_Height, "test");
 		MultiComboBox(3, "Event Logger", EventLogsOptions, c_config::get().event_logger);
 
@@ -1102,6 +1103,9 @@ void Menu::Render()
 		combobox(5, "Hit Marker Sound", Hitmarker_Type, &c_config::get().hitmarker_sound);
 		
 		checkbox("Indicators", &c_config::get().indicators);
+		//checkbox("Footstep ESP", &c_config::get().sound_footstep);
+		//color_selector("Footstep ESP Color", &c_config::get().clr_footstep_r, &c_config::get().clr_footstep_g,
+		//	&c_config::get().clr_footstep_b, &c_config::get().clr_footstep_a);
 		checkbox("Force Crosshair", &c_config::get().force_crosshair);
 		checkbox("Preserve Killfeed", &c_config::get().visual_preserve_killfeed);
 		checkbox("Penetration Crosshair", &c_config::get().penetration_crosshair);
