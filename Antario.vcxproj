@@ -139,7 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Antario\Features\added by silver\c_hitmarker.cpp" />
     <ClCompile Include="Antario\Features\Aimbot\EnginePrediction.cpp" />
     <ClCompile Include="Antario\Features\Aimbot\Aimbot.cpp" />
     <ClCompile Include="Antario\Features\Aimbot\Autowall.cpp" />
@@ -169,7 +168,6 @@
     <ClCompile Include="Antario\Features\Visuals\ESP.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Antario\Features\added by silver\c_hitmarker.h" />
     <ClInclude Include="Antario\Features\Aimbot\Aimbot.h" />
     <ClInclude Include="Antario\Features\Aimbot\Autowall.h" />
     <ClInclude Include="Antario\Features\Aimbot\EnginePrediction.h" />
@@ -201,7 +199,6 @@
     <ClInclude Include="Antario\SDK\CInput.h" />
     <ClInclude Include="Antario\SDK\ClientClass.h" />
     <ClInclude Include="Antario\SDK\CModelRender.h" />
-    <ClInclude Include="Antario\SDK\c_game_event_manager.h" />
     <ClInclude Include="Antario\SDK\Hitboxes.h" />
     <ClInclude Include="Antario\SDK\ICvar.h" />
     <ClInclude Include="Antario\SDK\IEngineTrace.h" />

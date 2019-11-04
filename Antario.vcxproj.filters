@@ -96,9 +96,6 @@
     <ClCompile Include="Antario\Features\damage esp\damageesp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Antario\Features\added by silver\c_hitmarker.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Antario\Hooks.h">
@@ -426,12 +423,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Antario\Features\damage esp\damageesp.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\Features\added by silver\c_hitmarker.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Antario\SDK\c_game_event_manager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
